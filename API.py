@@ -3,7 +3,7 @@ import pickle
 
 app = Flask(__name__)
 
-model = pickle.load(open('rf_modl.pkl','rb'))
+model = pickle.load(open(r'C:\Users\Admin\Desktop\ML Project - Anurag\heart\heart_project\rf_modl.pkl','rb'))
 
 @app.route('/')
 def index():
