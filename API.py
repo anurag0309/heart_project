@@ -5,7 +5,7 @@ import pickle
 
 app = Flask(__name__)
 
-model = pickle.load(open('rf_modl.pkl','rb'))
+model = pickle.load(open('knn_model_hpp.pkl','rb'))
 
 @app.route('/')
 def index():
