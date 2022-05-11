@@ -3,7 +3,7 @@ import pickle
 
 app = Flask(__name__)
 
-model = pickle.load(open('knn_model_hpp.pkl','rb'))
+model = pickle.load(open('/knn_model_hpp.pkl','rb'))
 
 @app.route('/')
 def index():
